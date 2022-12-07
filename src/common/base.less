@@ -1,0 +1,8 @@
+@import './color.less';
+@some: foo;
+
+@list: 'banana', 'tomato', 'patato';
+n:length(@list) div {
+  margin: if((2>1), 0, 3px);
+  color: if((iscolor(@some)), @some, black);
+}

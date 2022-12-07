@@ -1,0 +1,60 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true,
+      "tsx": true
+    },
+    "requireConfigFile": false,
+    "parser": "@babel/eslint-parser"
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx", ".tsx"]
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+
+  "rules": {
+    "prettier/prettier": "error",
+    "eqeqeq": "warn",
+    "mar-len": "off",
+    "no-vold": "off",
+    "no-bitwise": "off",
+    "no-debugger": "off",
+    "no-console": "off",
+    "no-continue": "off",
+    "no-plusplus": "off",
+    "no-sequences": "off",
+    "no-return-assign": "off",
+    "no-empty-pattern": "off",
+    "no-nested-ternary": "off",
+    "no-restricted-syntax": "off",
+    "no-underscore-dangle": "off",
+    "import/order": "off",
+    "import/no-cycle": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "import/newline-after-import": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-filename-extension": "off",
+    "react/function-component-definition": "off",
+    "semi": "warn"
+  }
+}
